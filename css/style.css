@@ -473,7 +473,7 @@ header h1 {
 @media screen and (max-width: 480px) {
   header {
     width: 100%;
-    height: auto;
+    height: 400px;
     background-image: url(../img/fondo-pantalla-hilo-tejer.jpg);
     background-position: 0;
     background-size: cover;
@@ -490,7 +490,7 @@ header h1 {
   }
   header .autor {
     padding: 1em;
-    font-size: 25px;
+    font-size: 1.2em;
     text-align: right;
     font-weight: bold;
     z-index: 1;
@@ -550,11 +550,31 @@ header h1 {
     align-items: center;
   }
   .acerca .texto-acerca {
-    width: 90%;
+    width: 80%;
     font-weight: bold;
     font-size: 1em;
     padding: 10px;
     text-align: justify;
+  }
+  .acerca .acerca-img1 {
+    width: 90%;
+    height: 350px;
+    background-image: url(../img/01.png);
+    background-position: 0;
+    background-size: cover;
+    border: 3px solid rgb(83, 59, 150);
+    border-radius: 10px;
+    margin: 20px;
+  }
+  .acerca .acerca-img2 {
+    width: 90%;
+    height: 350px;
+    background-image: url(../img/02.png);
+    background-position: 0;
+    background-size: cover;
+    border: 2px solid rgb(83, 59, 150);
+    border-radius: 10px;
+    margin: 20px;
   }
 }
 
