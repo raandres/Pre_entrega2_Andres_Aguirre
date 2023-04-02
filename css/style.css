@@ -220,11 +220,11 @@ header h1{
 
 /* ESTILOS ACERCA DE */
 
-.main-acerca{
+/* .main-acerca{
     margin: 10px;
     justify-content: center;
     display: flex;
-}
+} */
 .acerca{
     width: 70%;
     display: flex;
@@ -238,11 +238,12 @@ header h1{
 
 }
 .texto-acerca{
-    width: 50%;
+    width: 100%;
     font-weight: bold;
     font-size: 20px;
     padding: 10px;
     text-align: justify;
+    align-self:center;
 }
 
 .acerca-img1{
@@ -385,6 +386,48 @@ header h1{
     .pie .footer-texto{
         font-size: 0.9em;
     }
+
+    .acerca{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto-acerca{
+        width: 100%;
+        font-weight: bold;
+        font-size: 1.2em;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .acerca-img1{
+        width: 400px;
+        height: 350px;
+        background-image: url(../img/01.png);
+        background-position: 0;
+        background-size: cover;
+        border: 3px solid rgb(83, 59, 150);
+        border-radius: 10px;
+        margin: 20px;
+    }
+    
+    .acerca-img2{
+        width: 400px;
+        height: 350px;
+        background-image: url(../img/02.png);
+        background-position: 0;
+        background-size: cover;
+        border: 2px solid rgb(83, 59, 150);
+        border-radius: 10px;
+        margin: 20px;
+    }
 }
 
 
@@ -450,6 +493,26 @@ header h1{
 
     .pie .footer-texto{
         font-size: 0.8em;
+    }
+
+    .acerca{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto-acerca{
+        width: 100%;
+        font-weight: bold;
+        font-size: 1.2em;
+        padding: 10px;
+        text-align: justify;
     }
 }
 
@@ -527,6 +590,26 @@ header h1{
 
     .pie .footer-texto{
         font-size: 0.8em;
+    }
+
+    .acerca{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto-acerca{
+        width: 90%;
+        font-weight: bold;
+        font-size: 1em;
+        padding: 10px;
+        text-align: justify;
     }
 }
 
