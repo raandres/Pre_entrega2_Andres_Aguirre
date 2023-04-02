@@ -14,58 +14,61 @@
 </head>
 <body>
     
-<!-- ENCABEZADO -->
-<header>
-    <section class="row">
-        <div class="col  col-sm-8 col-md-8">
-            <h1>@DOSAGUJAS.CROCHET</h1>
-        </div>
-    </section>
-    <section class="row">
-        <div class="col col-sm-8 col-md-8 texto">
-            CONTACTO
-        </div>
-    </section>
+    <!-- ENCABEZADO -->
+    <header>
+        <section class="row">
+            <div class="col  col-sm-8 col-md-8">
+                <h1>@DOSAGUJAS.CROCHET</h1>
+            </div>
+        </section>
+        <section class="row">
+            <div class="col col-sm-8 col-md-8 texto">
+                CONTACTO
+            </div>
+        </section>
     
-</header>
-<!-- ENCABEZADO -->
+    </header>
+    <!-- ENCABEZADO -->
 
 
-<nav class="menu">
-    <input type="checkbox" id="check-menu">
-    <label for="check-menu" class="menu_oculto">
-        <i class='bx bx-menu'></i>
-    </label>
-    <ul>
-        <li class="nav-item"><a href="index.html" class="active">INICIO</a></li>
-        <li class="nav-item"><a href="productos.html" class="active">PRODUCTOS</a></li>
-        <li class="nav-item"><a href="acerca.html" class="active">NOSOTROS</a></li>
-        <li class="nav-item"><a href="contacto.html" class="active">CONTACTO</a></li>
-    </ul>
-</nav>
+    <nav class="menu">
+        <input type="checkbox" id="check-menu">
+        <label for="check-menu" class="menu_oculto">
+            <i class='bx bx-menu'></i>
+        </label>
+        <ul>
+            <li class="nav-item"><a href="index.html" class="active">INICIO</a></li>
+            <li class="nav-item"><a href="productos.html" class="active">PRODUCTOS</a></li>
+            <li class="nav-item"><a href="acerca.html" class="active">NOSOTROS</a></li>
+            <li class="nav-item"><a href="contacto.html" class="active">CONTACTO</a></li>
+        </ul>
+    </nav>
 
-    <main>
-        <h3>
-            <form action="">
-                <div>
-                    <input type="text" placeholder="Nombre">
-                </div>
-                <div>
-                    <input type="text" placeholder="Apellido">
-                </div>
-                <div>
-                    <input type="tel" placeholder="Telefono">
-                </div>
-                <div>
-                    <input type="email" placeholder="Email">
-                </div>
-                <div>
-                    <input type="button" value="Enviar">
-                    <input type="reset" value="Borrar">
-                </div>
-            </form>
-        </h3>
 
+    <main class="main-contacto">
+        <!-- <div class="row"> -->
+            
+            <section class="seccion-form borde">
+                <!-- formulario -->
+                <form action="">
+                  <input type="text" placeholder="Nombre" />
+        
+                  <input type="text" placeholder="Apellido" />
+        
+                  <input type="tel" placeholder="Telefono" />
+                  <input type="email" placeholder="Email" />
+                  <textarea name="mensaje" placeholder="Escribinos tu consulta"></textarea>
+                  <div class="texto-contacto">Fecha deseada para envío de productos</div>
+                  <input type="date" />
+                  <div class="btn-container">
+                    <input type="reset" class="btn btn-cancel" value="Cancelar" />
+                    <input type="submit" class="btn btn-ok" value="Enviar" />
+                  </div>
+                </form>
+              </section>
+            
+        <!-- </div> -->
+        
     </main>
 
     <!-- FOOTER -->
