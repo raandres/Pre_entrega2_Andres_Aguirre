@@ -207,7 +207,7 @@ header h1{
 }
 
 .pie .footer-texto{
-    font-size: 1.5em;
+    font-size: 1.3em;
     /* padding: 10px; */
     z-index: 1;
 }
@@ -382,8 +382,8 @@ header h1{
         display: block;
     }
 
-    .footer-texto{
-        font-size: 1em;
+    .pie .footer-texto{
+        font-size: 0.9em;
     }
 }
 
@@ -448,8 +448,8 @@ header h1{
         display: block;
     }
 
-    .footer-texto{
-        font-size: 1em;
+    .pie .footer-texto{
+        font-size: 0.8em;
     }
 }
 
@@ -514,8 +514,19 @@ header h1{
         display: block;
     }
 
-    .footer-texto{
-        font-size: 1em;
+    .logo img{
+        height: 40px;
+        border-radius: 10px;
+        /* margin: 20px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 1px solid black; */
+        
+    }
+
+    .pie .footer-texto{
+        font-size: 0.8em;
     }
 }
 
