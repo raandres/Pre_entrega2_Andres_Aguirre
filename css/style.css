@@ -289,7 +289,7 @@ header h1 {
   color: white;
 }
 
-/* MEDIA */
+/* MEDIA QUERIES*/
 @media screen and (max-width: 768px) {
   header {
     width: 100%;
